@@ -1,0 +1,127 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 242, 245)
+}
+
+.calculator-body {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25vw;
+    height: 75vh;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+}
+
+.output-screen {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    flex-direction: column;
+    background-color:  hsl(202, 11%, 29%);
+    width: 25vw;
+    height: 120px;  
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: ;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px;
+    color: hsl(255, 100%, 100%);
+    font-size: xx-large;
+}
+
+.buttons-operands {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+}
+
+.column-1,
+.column-2, 
+.column-3,
+.column-4 {
+    display: flex;
+    flex-direction: column;
+    height: 56vh;
+    width: 13vh;
+    margin: 0px;
+    border: 1px solid black;
+    padding: 0px;
+}
+
+.column-1 {
+    border-bottom-left-radius: 8px;
+}
+
+.column-4 {
+    border-bottom-right-radius: 8px;
+}
+
+.buttons {
+    border: 1px solid black;
+    height: 20vh;
+    font-size: 25px;
+}
+
+.buttons:hover {
+    background-color: hsl(0°, 1%, 64%);
+}
+
+.buttons:active {
+    transform: scale(0.99);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+#button-divide {
+    height: 72px;
+    
+}
+
+#button-clear {
+    height: 45vh;
+    background: hsl(357, 100%, 72%);
+    border-bottom-right-radius: 8px;
+}
+
+#button-addition,
+#button-subtract,
+#button-multiply,
+#button-divide {
+    background: hsl(208, 25%, 86%);
+}
+
+#button-zero {
+    border-bottom-left-radius: 8px;
+}
+
+#button-addition:hover{
+    background-color: hsl(208, 25%, 60%);
+}
+
+#button-subtract:hover{
+    background-color: hsl(208, 25%, 60%);
+}
+
+#button-mutiply:hover{
+    background-color: hsl(208, 25%, 60%);
+}
+
+#button-divide:hover{
+    background-color: hsl(208, 25%, 60%);
+}
+
+#button-clear:hover {
+    background: hsl(357, 100%, 60%);
+}
+
